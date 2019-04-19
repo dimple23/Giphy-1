@@ -1,0 +1,57 @@
+
+body{
+  background: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
+}
+
+.get-giphy{
+	color:whitesmoke;
+	display: inline;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 10%;
+	font-family: 'Times New Roman', Times, serif;
+	background-color:rgba(212, 19, 19, 0.548);
+  margin: 0 15px 15px 0;
+
+}
+
+#gifs-appear-here{
+	display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.jumbotron{
+	background-image: url(../images/jumbo2.jpg);
+}
+h4{
+color: aliceblue;
+}
+@media all and (min-width: 768px) {
+	#buttons {
+			border-right: 15px solid #fff;
+	}
+	
+	#formWrap {
+			border-left: 15px solid #fff;
+	}
+}
+	
+	@media all and (max-width: 768px) {
+			#buttons {
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+			}
+			#formWrap {
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+			}
+	}
+	
+	@media all and (max-width: 575px) {
+			.row {
+					margin-left: 0;
+					margin-right: 0;
+			}
+	}
+	
